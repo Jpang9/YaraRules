@@ -4,7 +4,7 @@ import "pe"
 rule Agent_Tesla_Sample	{
 
 	meta:
-		last_updated = "2022-11-04"
+		Date = "2022-11-04"
 		author = "Potatech"
 		description = "Agent_Tesla Detection"
 		md5hash = "2b294b3499d1cce794badffc959b7618 "
@@ -23,7 +23,7 @@ rule Agent_Tesla_Sample	{
 rule Agent_tesla_Dropped_Binary	{
 
 	meta:
-		last_updated = "2022-11-04"
+		Date = "2022-11-04"
 		author = "Potatech"
 		description = "Dumped Binary of Agent Tesla"
 		md5hash = "aa5e9af3f263b96805f14058605f21e9"

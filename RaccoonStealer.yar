@@ -2,10 +2,14 @@
 rule Raccon_Stealer_sample	{
 
 	meta:
-		last_updated = "2022-10-28"
+		date = "2022-10-28"
 		author = "Potatech"
 		description = "Raccon Stealer Detection"
-		md5hash = "80b0745106a9a4ed3c18264ba1887bff"
+		yarahub_reference_md5 = "80b0745106a9a4ed3c18264ba1887bff"
+		yarahub_license = "CC0 1.0"
+      	yarahub_rule_matching_tlp = "TLP:WHITE"
+      	yarahub_rule_sharing_tlp = "TLP:GREEN"
+      	yarahub_UUID = "703ba12d-2b17-4abf-ad1f-ff90a2733411"
 
 	strings:
 		$ = "edinayarossiya"
