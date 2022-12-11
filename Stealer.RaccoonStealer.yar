@@ -1,8 +1,7 @@
-
-rule Raccon_Stealer_sample	{
+rule RaccoonStealerOct2022{
 
 	meta:
-		date = "2022-10-28"
+		date = "28/10/2022"
 		author = "Potatech"
 		description = "Raccon Stealer Detection"
 		yarahub_reference_md5 = "80b0745106a9a4ed3c18264ba1887bff"

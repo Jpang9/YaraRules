@@ -1,4 +1,4 @@
-rule azov_DropperType{
+rule azov_DropperTypeNov2022{
 
 	meta:
 		date = "21/Nov/2022"
@@ -20,10 +20,10 @@ rule azov_DropperType{
 
 }
 
-rule azov_Dropped{
+rule azov_DroppedNov2022{
 
 	meta:
-		date = "2022-11-21"
+		date = "2022-11-22"
 		author = "Potatech"
 		description = "Azov Detection"
 		yarahub_reference_md5 = "914bcab4e777c2b32b7563edf0b6a7aa"

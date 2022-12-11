@@ -1,7 +1,7 @@
-rule AsyncRat_Detection_Dec_2022{
+rule AsyncRatDec2022{
 
 	meta:
-		date = "03/Dec/2022"
+		date = "03/12/2022"
 		author = "Potatech"
 		description = "AsyncRat"
 		sha256 = "53542563788e98bdc1a23102c0cdf82a08e0cfc955f23f38be064811efc2a1a0"

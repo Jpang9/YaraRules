@@ -1,7 +1,7 @@
-rule RedLine_generic {
+rule RedLineStealerNov2022{
 	
 	meta:
-		last_updated = "2022-11-13"
+		last_updated = "13/11/2022"
 		author = "Potatotech"
 		Description = "RedLine_Stealer Generic Detection"
 		Hash1 = "29956baef7de02eb8eaeb36c6b82eb778e1ff8d19bdd5ce1a08228563dac025e"

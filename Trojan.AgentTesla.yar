@@ -1,12 +1,12 @@
 import "pe"
 
 
-rule Agent_Tesla_Sample	{
+rule AgentTeslaNov2022{
 
 	meta:
-		Date = "2022-11-04"
+		Date = "04/11/2022"
 		author = "Potatech"
-		description = "Agent_Tesla Detection"
+		description = "AgentTesla Detection"
 		md5hash = "2b294b3499d1cce794badffc959b7618 "
 
 	strings:
@@ -20,10 +20,10 @@ rule Agent_Tesla_Sample	{
 		uint16(0) == 0x5A4D and 4 of them
 }
 
-rule Agent_tesla_Dropped_Binary	{
+rule AgentTeslaDropperNov2022{
 
 	meta:
-		Date = "2022-11-04"
+		Date = "04/11/2022"
 		author = "Potatech"
 		description = "Dumped Binary of Agent Tesla"
 		md5hash = "aa5e9af3f263b96805f14058605f21e9"

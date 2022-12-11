@@ -1,5 +1,3 @@
-
-
 rule RedLiner_Decryption	{
 
 	meta:

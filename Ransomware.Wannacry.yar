@@ -1,7 +1,7 @@
-rule Wannacry_sample	{
+rule WannaCryNov2022{
 
 	meta:
-		Date = "2022-10-24"
+		Date = "24/12/2022"
 		author = "Potatech"
 		description = "WannaCry Detection"
 		md5hash = "db349b97c37d22f5ea1d1841e3c89eb4 "
